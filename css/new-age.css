@@ -4,6 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+ /* color theme:
+ effcef
+ ccedd2
+ 94d3ac
+ 655c56
+  */
+
 html,
 body {
   width: 100%;
@@ -15,12 +22,12 @@ body {
 }
 
 a {
-  color: #1aa162;
+  color: #94d3ac;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #ccedd2;
 }
 
 hr {
@@ -76,7 +83,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #1aa162;
+  color: #94d3ac;
 }
 
 #mainNav .navbar-toggler {
@@ -93,7 +100,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #1aa162 !important;
+  color: #94d3ac !important;
   background-color: transparent;
 }
 
@@ -108,7 +115,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #1aa162;
+  color: #94d3ac;
 }
 
 @media (min-width: 992px) {
@@ -138,7 +145,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #1aa162;
+    color: #94d3ac;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -280,10 +287,11 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background-color:  #94d3ac;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 section.cta {
   position: relative;
@@ -398,12 +406,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #1aa162;
-  background: linear-gradient(#1aa162, #39bffd);
+  background: #94d3ac;
+  background: linear-gradient(#94d3ac,#94d3ac);
 }
 
+
 .text-primary {
-  color: #1aa162;
+  color: #94d3ac;
 }
 
 .no-gutter > [class*='col-'] {
@@ -419,8 +428,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #1aa162;
-  background-color: #1aa162;
+  border-color: #94d3ac;
+  background-color: #94d3ac;
 }
 
 .btn {
