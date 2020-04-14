@@ -346,6 +346,7 @@ section.contact {
   text-align: center;
 }
 
+
 section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
@@ -423,6 +424,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: linear-gradient(#405026,#405026);
 }
 
+.bg-pattern{
+  background: url("../img/bg-pattern.png"), #405026;
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #405026,#405026); 
+}
+
 
 .text-primary {
   color: #405026;
@@ -455,4 +461,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+#me{
+  height: 50vh;
 }
